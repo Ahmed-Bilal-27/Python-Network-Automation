@@ -1,6 +1,5 @@
 import time
 import paramiko
-
 from Utils.file_handling import write_data
 
 cisco_devnet_device = {'hostname' : 'devnetsandboxiosxe.cisco.com',
@@ -27,6 +26,7 @@ shell.send(b'show running-config\n')
 # Stopping or putting the current thread to sleep
 time.sleep(3)
 output = shell.recv(65535).decode()
+ssh_client.close()
 if (write_data(__file__, output)):
     print('Written to file successfully')
 else:

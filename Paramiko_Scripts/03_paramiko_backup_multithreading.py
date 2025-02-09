@@ -1,7 +1,6 @@
 import threading
 import time
 import paramiko
-import schedule
 from Utils.file_handling import write_data
 
 cisco_devnet_device = {'hostname' : 'devnetsandboxiosxe.cisco.com',
@@ -25,7 +24,7 @@ def paramiko_backup(**device):
     shell = ssh_client.invoke_shell()
     print(f'Connecting to {device["hostname"]}')
     shell.send(b'terminal length 0\n')
-    shell.send(b'show running-config\n')
+    shell.send(b'show ip interface brief\n')
     # Stopping or putting the current thread to sleep
     time.sleep(3)
     output = shell.recv(65535).decode()

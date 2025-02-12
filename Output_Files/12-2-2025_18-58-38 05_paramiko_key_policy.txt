@@ -1,0 +1,3 @@
+show cdp neighb
+% CDP is not enabled
+Cat8000V#

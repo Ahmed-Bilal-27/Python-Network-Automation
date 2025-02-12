@@ -1,0 +1,149 @@
+show tcp
+
+Stand-alone TCP connection from host 10.10.20.28
+Connection state is TIMEWAIT, I/O status: 1, unread input bytes: 0            
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 10.10.20.48, Local port: 22
+Foreign host: 10.10.20.28, Foreign port: 42728
+Connection tableid (VRF): 0
+Maximum output segment queue size: 50
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x4116281):
+Timer          Starts    Wakeups            Next
+Retrans            23          0             0x0
+TimeWait            2          0       0x4124565
+AckHold            11          0             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+Linger              0          0             0x0
+ProcessQ            0          0             0x0
+
+iss: 4004958541  snduna: 4004963374  sndnxt: 4004963374
+irs: 2253960178  rcvnxt: 2253962326
+
+sndwnd:  64128  scale:      7  maxrcvwnd: 131072
+rcvwnd: 130428  scale:      2  delrcvwnd:    644
+
+SRTT: 954 ms, RTTO: 1319 ms, RTV: 365 ms, KRTT: 0 ms
+minRTT: 0 ms, maxRTT: 1000 ms, ACK hold: 120 ms
+uptime: 2497 ms, Sent idletime: 1916 ms, Receive idletime: 1916 ms 
+Status Flags: passive open, active open, App closed 
+Option Flags: SACK option permitted, win-scale, Retrans timeout, TCP User MSS, TCP User SACK
+IP Precedence value : 6
+
+TCB is waiting for TCP Process (0)
+Window update Optimisation : Enabled
+ACK Optimisation : Dynamic ACK Tuning Enabled
+
+Datagrams (max data segment is 1460 bytes):
+Peer MSS:       1460
+Rcvd: 36 (out of order: 0), with data: 11, total data bytes: 2146
+Sent: 28 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 23, total data bytes: 4831
+
+ Packets received in fast path: 0, fast processed: 0, slow path: 0
+ fast lock acquisition failures: 0, slow path: 0
+TCP Semaphore      0x794926080D68  FREE 
+
+Stand-alone TCP connection from host 10.10.20.28
+Connection state is TIMEWAIT, I/O status: 1, unread input bytes: 0            
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 10.10.20.48, Local port: 22
+Foreign host: 10.10.20.28, Foreign port: 42712
+Connection tableid (VRF): 0
+Maximum output segment queue size: 50
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x4116281):
+Timer          Starts    Wakeups            Next
+Retrans            23          0             0x0
+TimeWait            2          0       0x41242AE
+AckHold            11          0             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+Linger              0          0             0x0
+ProcessQ            0          0             0x0
+
+iss: 2283910355  snduna: 2283915188  sndnxt: 2283915188
+irs: 2667528083  rcvnxt: 2667530231
+
+sndwnd:  64128  scale:      7  maxrcvwnd: 131072
+rcvwnd: 130428  scale:      2  delrcvwnd:    644
+
+SRTT: 954 ms, RTTO: 1319 ms, RTV: 365 ms, KRTT: 0 ms
+minRTT: 0 ms, maxRTT: 1000 ms, ACK hold: 120 ms
+uptime: 3200 ms, Sent idletime: 2611 ms, Receive idletime: 2611 ms 
+Status Flags: passive open, active open, App closed 
+Option Flags: SACK option permitted, win-scale, Retrans timeout, TCP User MSS, TCP User SACK
+IP Precedence value : 6
+
+TCB is waiting for TCP Process (0)
+Window update Optimisation : Enabled
+ACK Optimisation : Dynamic ACK Tuning Enabled
+
+Datagrams (max data segment is 1460 bytes):
+Peer MSS:       1460
+Rcvd: 36 (out of order: 0), with data: 11, total data bytes: 2146
+Sent: 28 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 23, total data bytes: 4831
+
+ Packets received in fast path: 0, fast processed: 0, slow path: 0
+ fast lock acquisition failures: 0, slow path: 0
+TCP Semaphore      0x794926080E38  FREE 
+
+tty434, virtual tty from host 10.10.20.28
+Connection state is ESTAB, I/O status: 1, unread input bytes: 0            
+Connection is ECN Disabled, Mininum incoming TTL 0, Outgoing TTL 255
+Local host: 10.10.20.48, Local port: 22
+Foreign host: 10.10.20.28, Foreign port: 34628
+Connection tableid (VRF): 0
+Maximum output segment queue size: 20
+
+Enqueued packets for retransmit: 0, input: 0  mis-ordered: 0 (0 bytes)
+
+Event Timers (current time is 0x4116282):
+Timer          Starts    Wakeups            Next
+Retrans            85          0             0x0
+TimeWait            0          0             0x0
+AckHold            14          2             0x0
+SendWnd             0          0             0x0
+KeepAlive           0          0             0x0
+GiveUp              0          0             0x0
+PmtuAger            0          0             0x0
+DeadWait            0          0             0x0
+Linger              0          0             0x0
+ProcessQ            0          0             0x0
+
+iss: 3776941408  snduna: 3776949420  sndnxt: 3776949420
+irs: 1247061449  rcvnxt: 1247063518
+
+sndwnd:  64128  scale:      7  maxrcvwnd: 131072
+rcvwnd: 130548  scale:      2  delrcvwnd:    524
+
+SRTT: 1000 ms, RTTO: 1003 ms, RTV: 3 ms, KRTT: 0 ms
+minRTT: 0 ms, maxRTT: 1000 ms, ACK hold: 200 ms
+uptime: 11989 ms, Sent idletime: 4 ms, Receive idletime: 3 ms 
+Status Flags: passive open, active open
+Option Flags: SACK option permitted, win-scale, Retrans timeout, TCP User MSS, TCP User SACK
+IP Precedence value : 6
+
+TCB is waiting for TCP Process (453)
+Window update Optimisation : Enabled
+ACK Optimisation : Dynamic ACK Tuning Enabled
+
+Datagrams (max data segment is 1460 bytes):
+Peer MSS:       1460
+Rcvd: 99 (out of order: 0), with data: 13, total data bytes: 2068
+Sent: 92 (retransmit: 0, fastretransmit: 0, partialack: 0, Second Congestion: 0), with data: 89, total data bytes: 8011
+
+ Packets received in fast path: 0, fast processed: 0, slow path: 0
+ fast lock acquisition failures: 0, slow path: 0
+TCP Semaphore      0x794926080AF8  FREE 
+Cat8000V#

@@ -1,0 +1,6 @@
+        
+Cat8000V#how tcp
+          ^
+% Invalid input detected at '^' marker.
+
+Cat8000V#

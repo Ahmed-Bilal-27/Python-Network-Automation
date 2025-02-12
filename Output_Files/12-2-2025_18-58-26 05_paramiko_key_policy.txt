@@ -1,0 +1,12 @@
+show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet1       10.10.20.48     YES NVRAM  up                    up      
+GigabitEthernet2       1.2.2.3         YES TFTP   up                    up      
+GigabitEthernet3       192.0.2.1       YES manual up                    up      
+Loopback0              5.5.5.5         YES manual up                    up      
+Loopback1              10.10.10.10     YES manual up                    up      
+Loopback2              20.20.20.20     YES manual up                    up      
+Loopback10             unassigned      YES unset  up                    up      
+Loopback123            123.123.123.123 YES manual up                    up      
+VirtualPortGroup0      192.168.1.1     YES NVRAM  up                    up      
+Cat8000V#

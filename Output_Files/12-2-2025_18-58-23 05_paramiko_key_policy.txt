@@ -1,0 +1,14 @@
+
+Welcome to the DevNet Sandbox for Cat8000V and IOS XE
+
+The following programmability features are already enabled:
+
+-NETCONF
+-RESTCONF
+
+Thanks for stopping by.
+
+
+
+Cat8000V#terminal length 0
+Cat8000V#

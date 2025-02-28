@@ -1,0 +1,2 @@
+R1#terminal length 0
+R1#show running-confi

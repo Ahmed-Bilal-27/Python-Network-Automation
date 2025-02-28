@@ -1,0 +1,122 @@
+
+R1#terminal length 0
+R1#show running-config
+Building configuration...
+
+Current configuration : 1547 bytes
+!
+! Last configuration change at 10:44:51 UTC Fri Feb 28 2025 by Ahmed_Bilal
+upgrade fpd auto
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname R1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$5WMG$bSurBxJCrq/FTJ1x8EBxL/
+!
+no aaa new-model
+no ip icmp rate-limit unreachable
+!
+!
+!
+!
+!
+!
+no ip domain lookup
+ip domain name Ahmed_Bilal.pk
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username Ahmed_Bilal privilege 15 password 0 Ahmed_Bilal
+!
+redundancy
+!
+!
+ip tcp synwait-time 5
+ip ssh version 2
+ip ssh pubkey-chain
+  username Ahmed_Bilal
+   key-hash ssh-rsa 42DC8727474164A1C76D6768B7AB248B ubuntu-24-04-1@ubuntu-24-04-1-VMware-Virtual-Platform
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description # Loopback 0 #
+ ip address 1.1.1.1 255.255.255.255
+!
+interface FastEthernet0/0
+ description # To Switch1 #
+ ip address 192.168.134.10 255.255.255.0
+ duplex half
+!
+router ospf 1
+ passive-interface Loopback0
+ network 1.1.1.1 0.0.0.0 area 0
+ network 192.168.134.0 0.0.0.255 area 0
+!
+ip forward-protocol nd
+no ip http server
+no ip http secure-server
+!
+!
+!
+no cdp log mismatch duplex
+!
+!
+!
+control-plane
+!
+!
+!
+mgcp profile default
+!
+!
+!
+gatekeeper
+ shutdown
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ stopbits 1
+line vty 0 4
+ login local
+ transport input all
+line vty 5 15
+ login local
+ transport input all
+!
+!
+end
+
+R1#

@@ -1,0 +1,4 @@
+ip ssh pubkey-chain
+  username Ahmed_Bilal
+   key-hash ssh-rsa 42DC8727474164A1C76D6768B7AB248B ubuntu-24-04-1@ubuntu-24-04-1-VMware-Virtual-Platform
+

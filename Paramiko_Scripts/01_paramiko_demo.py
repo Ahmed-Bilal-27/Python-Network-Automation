@@ -2,12 +2,12 @@ import time
 import paramiko
 from Utils.file_handling import write_data
 
-cisco_devnet_device = {'hostname' : 'devnetsandboxiosxe.cisco.com',
-                        'username' : 'admin',
-                        'password' : 'C1sco12345',
+cisco_devnet_device = {'hostname' : '192.168.134.10',
+                        'username' : 'Ahmed_Bilal',
+                        'password' : 'Ahmed_Bilal',
                         'device_type' : 'cisco_ios'}
 
-ssh_client = paramiko.client.SSHClient()
+ssh_client = paramiko.SSHClient()
 
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy)
 # Connecting to the device

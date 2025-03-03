@@ -11,14 +11,19 @@ cisco_device = {
 
 session = paramiko.SSHClient()
 
-#session.load_system_host_keys()
+session.load_system_host_keys()
 #session.load_host_keys('/home/ubuntu-24-04-1/.ssh/known_hosts')
-session.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+#session.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+#key = getenv('/home/ubuntu-24-04-1/.ssh/id_rsa')
+key_file = paramiko.RSAKey.from_private_key_file('/home/ubuntu-24-04-1/.ssh/id_rsa')
 session.connect(
                 hostname = cisco_device['hostname'],
                 username = cisco_device['username'],
                 password = cisco_device['password'],
-                #pkey = key_file,
+                #timeout = 50,
+                #key_filename = key,
+                pkey = key_file,
+                #disabled_algorithms = {'pubkeys': ['rsa-sha2-512', 'rsa-sha2-256']},
                 allow_agent = False,
                 look_for_keys = False
 )

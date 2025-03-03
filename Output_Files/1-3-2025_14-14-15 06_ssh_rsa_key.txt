@@ -1,0 +1,1 @@
+show versi$gth 0show ip interface briefshow ip protocolsshow sshshow versio         n

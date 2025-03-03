@@ -1,0 +1,6 @@
+show ip ospf neig
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+2.2.2.2           1   FULL/BDR        00:00:39    192.168.134.2   FastEthernet0/0
+3.3.3.3           1   FULL/DR         00:00:32    192.168.134.3   FastEthernet0/0
+R1#

@@ -1,0 +1,20 @@
+show ip protocols
+Routing Protocol is "ospf 1"
+  Outgoing update filter list for all interfaces is not set
+  Incoming update filter list for all interfaces is not set
+  Router ID 3.3.3.3
+  Number of areas in this router is 1. 1 normal 0 stub 0 nssa
+  Maximum path: 4
+  Routing for Networks:
+    3.3.3.3 0.0.0.0 area 0
+    192.168.134.0 0.0.0.255 area 0
+ Reference bandwidth unit is 100 mbps
+  Passive Interface(s):
+    Loopback0
+  Routing Information Sources:
+    Gateway         Distance      Last Update
+    2.2.2.2              110      00:00:29
+    1.1.1.1              110      00:00:29
+  Distance: (default is 110)
+
+R3#

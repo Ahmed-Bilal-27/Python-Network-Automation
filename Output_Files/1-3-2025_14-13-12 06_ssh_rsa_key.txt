@@ -1,0 +1,1 @@
+sh$acesterminal length 0show ip interface briefshow ip protocolssho         w ssh

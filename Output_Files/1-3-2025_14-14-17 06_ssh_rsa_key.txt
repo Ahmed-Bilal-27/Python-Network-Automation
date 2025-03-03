@@ -1,0 +1,1 @@
+show cdpip interface briefshow ip protocolsshow sshshow versionshow cdp          neighb

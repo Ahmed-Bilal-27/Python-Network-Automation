@@ -1,0 +1,1 @@
+shoce briefshow ip protocolsshow sshshow versionshow cdp neighbshow          running-ow ip protocolsshow sshshow versionshow cdp neighbshow running-c         onfig

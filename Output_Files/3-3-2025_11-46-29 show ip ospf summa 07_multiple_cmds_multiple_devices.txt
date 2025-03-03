@@ -1,0 +1,10 @@
+show ip ospf summa
+
+            OSPF Router with ID (1.1.1.1) (Process ID 1)
+
+
+		Base Topology (MTID 0)
+Summary-address
+
+    Not configured
+R1#

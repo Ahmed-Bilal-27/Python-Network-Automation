@@ -1,0 +1,10 @@
+show cdp neighb
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+R1.Ahmed_Bilal.pk
+                 Fas 0/0            107          R        7206VXR   Fas 0/0
+R2.Ahmed_Bilal.pk
+                 Fas 0/0            112        R S I      3745      Fas 0/0
+R3#

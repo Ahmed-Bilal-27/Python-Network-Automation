@@ -1,0 +1,6 @@
+show ip ospf summa
+
+OSPF Process 1, Summary-address
+
+    Not configured
+R2#

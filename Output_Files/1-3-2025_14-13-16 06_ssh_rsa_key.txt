@@ -1,0 +1,1 @@
+sh0show ip interface briefshow ip protocolsshow sshshow versionsho         w cdp neinterface briefshow ip protocolsshow sshshow versionshow cdp neig         hb

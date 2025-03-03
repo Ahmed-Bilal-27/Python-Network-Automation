@@ -1,0 +1,6 @@
+show ssh
+Connection Version Mode Encryption  Hmac	 State	               Username
+0          2.0     IN   aes128-cbc  hmac-sha1    Session started       Ahmed_Bilal
+0          2.0     OUT  aes128-cbc  hmac-sha1    Session started       Ahmed_Bilal
+%No SSHv1 server connections running.
+R1#

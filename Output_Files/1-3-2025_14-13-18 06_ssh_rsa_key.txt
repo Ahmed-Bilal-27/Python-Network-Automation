@@ -1,0 +1,1 @@
+show ruriefshow ip protocolsshow sshshow versionshow cdp neighbshow run         ning-confp protocolsshow sshshow versionshow cdp neighbshow running-confi         g

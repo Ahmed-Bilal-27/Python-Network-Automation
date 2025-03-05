@@ -1,0 +1,3 @@
+
+R2#terminal len 0
+R2#

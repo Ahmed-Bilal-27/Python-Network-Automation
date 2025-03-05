@@ -1,0 +1,5 @@
+show run int l1
+             ^
+% Invalid input detected at '^' marker.
+
+R1(config)#

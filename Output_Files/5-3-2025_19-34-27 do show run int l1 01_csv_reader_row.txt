@@ -1,0 +1,4 @@
+do show run int l1
+% Incomplete command.
+
+R1(config)#

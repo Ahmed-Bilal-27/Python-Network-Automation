@@ -1,0 +1,6 @@
+do show run int loopback1
+show run int loopback1
+                     ^
+% Invalid input detected at '^' marker.
+
+R2(config)#

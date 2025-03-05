@@ -1,0 +1,2 @@
+no shut
+R1(config-if)#

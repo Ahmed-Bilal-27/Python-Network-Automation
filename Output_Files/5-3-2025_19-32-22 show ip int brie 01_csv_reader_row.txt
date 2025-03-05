@@ -1,0 +1,5 @@
+show ip int brie
+             ^
+% Invalid input detected at '^' marker.
+
+R1(config)#

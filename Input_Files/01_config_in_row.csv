@@ -1,0 +1,3 @@
+192.168.134.10,terminal len 0,config t,int l1,no shut,exit,no int l1,do show ip int brie,do show run int l1,,,,,
+192.168.134.2,terminal len 0,config t,int lo1,ip add 20.20.20.21 255.255.255.255,,,exit,no int lo1,,do show run int loopback0,do show run int loopback1,exit
+192.168.134.3,terminal len 0,config t,int lo1,no shut,,,,,,,,,ip add 30.30.30.30 255.255.255.255,,,,,,,,,exit, no int lo1, do show ip int br

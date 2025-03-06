@@ -1,0 +1,10 @@
+do show run int loopback0
+Building configuration...
+
+Current configuration : 63 bytes
+!
+interface Loopback0
+ ip address 2.2.2.2 255.255.255.255
+end
+
+R2(config)#

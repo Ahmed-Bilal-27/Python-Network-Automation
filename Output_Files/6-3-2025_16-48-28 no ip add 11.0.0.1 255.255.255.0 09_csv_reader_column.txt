@@ -1,0 +1,5 @@
+no ip add 11.0.0.1 255.255.255.0
+                    ^
+% Invalid input detected at '^' marker.
+
+R2(config)#

@@ -1,0 +1,3 @@
+no int l01
+% Not all config may be removed and may reappear after reactivating the logical-interface/sub-interfaces
+R3(config)#

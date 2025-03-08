@@ -1,0 +1,2 @@
+no int l01
+R1(config)#

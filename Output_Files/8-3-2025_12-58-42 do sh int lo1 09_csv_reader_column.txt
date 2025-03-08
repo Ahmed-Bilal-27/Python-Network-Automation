@@ -1,0 +1,6 @@
+do sh int lo1
+sh int lo1
+         ^
+% Invalid input detected at '^' marker.
+
+R2(config)#

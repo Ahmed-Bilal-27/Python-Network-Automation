@@ -1,0 +1,2 @@
+int lo1
+R1(config-if)#

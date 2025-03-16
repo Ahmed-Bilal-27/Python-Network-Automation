@@ -1,0 +1,26 @@
+{
+    "Hostname": "R2",
+    "Domain Name": "Ahmed_Bilal.pk\r",
+    "Netconf Enabled": false,
+    "List of Users": [
+        "Ahmed_Bilal"
+    ],
+    "List of Interfaces": [
+        "Loopback0",
+        "FastEthernet0/0"
+    ],
+    "List of Interface's Properties": [
+        {
+            "name": "Loopback0",
+            "ip_address": "2.2.2.2",
+            "mask": "255.255.255.255"
+        },
+        {
+            "name": "FastEthernet0/0",
+            "ip_address": "192.168.134.2",
+            "mask": "255.255.255.0"
+        }
+    ],
+    "Default Route": "Not Available",
+    "Static Route": []
+}
